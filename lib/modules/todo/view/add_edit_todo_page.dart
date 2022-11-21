@@ -12,7 +12,7 @@ class AddEditTodo extends StatelessWidget {
     print(result.toString());
     return BlocProvider(
       create: (context) => HomeBloc(),
-      child: AddEditTodoUI(),
+      child: const AddEditTodoUI(),
     );
   }
 }
