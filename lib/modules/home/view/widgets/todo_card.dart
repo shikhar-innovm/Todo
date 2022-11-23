@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:get/get.dart';
 import 'package:sizer/sizer.dart';
-import 'package:todo/_utils/constants/routes.dart';
-import 'package:todo/modules/home/models/todo_dto.dart';
-import 'package:todo/modules/todo/view/add_edit_todo_page.dart';
+import '../../../../_utils/constants/routes.dart';
+import '../../models/todo_dto.dart';
+import '../../../todo/view/add_edit_todo_page.dart';
 
 class TodoCard extends StatelessWidget {
   final TodoDTO todoDTO;

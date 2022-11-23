@@ -1,6 +1,6 @@
 import 'package:get/get_navigation/get_navigation.dart';
-import 'package:todo/modules/home/view/home_page.dart';
-import 'package:todo/modules/todo/view/add_edit_todo_page.dart';
+import '../../modules/home/view/home_page.dart';
+import '../../modules/todo/view/add_edit_todo_page.dart';
 
 class RouteNames {
   static const String loginPage = "/login";

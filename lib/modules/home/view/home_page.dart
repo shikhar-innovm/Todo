@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';
-import 'package:todo/_utils/constants/routes.dart';
-import 'package:todo/modules/home/view/widgets/todo_card.dart';
+import '../../../_utils/constants/routes.dart';
+import 'widgets/todo_card.dart';
 
 import '../controller/home_bloc.dart';
 

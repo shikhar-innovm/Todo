@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:dartz/dartz.dart';
-import 'package:todo/modules/home/models/todo_dto.dart';
+import '../models/todo_dto.dart';
 
 import '../../../_utils/entities/api_response.dart';
 

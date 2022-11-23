@@ -63,12 +63,10 @@ class _MyAppState extends State<MyApp> {
                 ],
               ),
               messageColor: AppTheme.grey1,
-              flushbarPosition: FlushbarPosition.BOTTOM,
               backgroundColor: AppTheme.secondaryColor.withOpacity(0.08),
               positionOffset: 60.0,
               padding:
                   const EdgeInsets.symmetric(vertical: 2.5, horizontal: 10.0),
-              flushbarStyle: FlushbarStyle.FLOATING,
               duration: const Duration(seconds: 2),
             ).show(mainNavigatorKey.currentContext!);
           } else {
@@ -82,12 +80,10 @@ class _MyAppState extends State<MyApp> {
                 ),
               ),
               messageColor: AppTheme.grey1,
-              flushbarPosition: FlushbarPosition.BOTTOM,
               backgroundColor: AppTheme.primaryColor.withOpacity(0.06),
               positionOffset: 60.0,
               padding:
                   const EdgeInsets.symmetric(vertical: 2.5, horizontal: 10.0),
-              flushbarStyle: FlushbarStyle.FLOATING,
               duration: const Duration(seconds: 2),
             ).show(mainNavigatorKey.currentContext!);
           }
